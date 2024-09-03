@@ -22,4 +22,12 @@ You can start all services by running
 ```
 docker-compose up
 ```
+All services can be stoped by running
+```
+docker-compose down
+```
+To stop and delete containers, delete volumes with database data and download images, run:
+```
+docker compose down --volumes --rmi all
+```
 
